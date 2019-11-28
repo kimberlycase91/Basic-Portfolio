@@ -7,23 +7,34 @@
     </head>
 
     <body>
-        <div>
+        <header>
+            <div id="Kimberly"><h1>Kimberly Case</h1></div>
+            <nav>
             <a href="index.html">About</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
-            
-            <div id="Kimberly"><h1>Kimberly Case</h1></div>
-        </div>
-    <Section class="contact">
+            </nav>
+        </header>
+
+        <Section class="contact">
         <h2>Contact</h2>
     <form>
-<!--Space to enter name-->
 
-<!--Space to enter email-->
+    <div class="contact-form">
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith">
 
-<!--Space to enter message-->
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com">
 
-<!--Submit button that sends results to email?-->
+            <label for="message">Message</label>
+            <input type="text" id="message" name="message">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
     </form>
     </section>
 
