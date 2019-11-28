@@ -16,18 +16,30 @@ body {
 
 header {
     background: white;
-    padding: 1.5em;
+    height: 4em;
+    margin-bottom:2em;
 }
 
 #Kimberly {
     background: #4aaaa5;
-    width: 10em;
-    height: 1.em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 9em;
+    height: 1em;
     font-size: 2em;
     color: white;
     text-align: center;
+    margin-right: 10em;
+    margin-left: 4.5em;
+    padding: .5em;
+    float: left; 
+}
+
+nav {
+    float:right;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-right: 10em;
+    margin-left: 4.5em;
 }
 
 p {
