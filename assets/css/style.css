@@ -1,0 +1,38 @@
+body {
+    background: url("../images/gray_jean/gray_jean.png");
+    /*Background pattern from Toptal Subtle Patterns*/
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 3em;
+    color: #4aaaa5;
+    position: left;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
+}
+
+.main-container { 
+    background: white;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: thin;
+    padding: 1.5em;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+#profile-photo {
+   padding: 1.5em; 
+   padding-top: 1.5em;
+   float: left;
+}
+#about-me {
+    padding: 1em;
+}
