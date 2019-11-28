@@ -6,12 +6,28 @@ body {
     line-height: 1.5em;
 }
 
-h1 {
+.heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 3em;
     color: #4aaaa5;
     position: left;
     padding: .5em;
+}
+
+header {
+    background: white;
+    padding: 1.5em;
+}
+
+#Kimberly {
+    background: #4aaaa5;
+    width: 10em;
+    height: 1.em;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 p {
@@ -35,4 +51,14 @@ p {
 }
 #about-me {
     padding: 1em;
+}
+
+
+
+footer {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding: .5em;
+    text-align: center;
+    position: bottom;
 }
