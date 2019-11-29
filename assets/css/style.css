@@ -8,6 +8,11 @@ body {
     position: relative;
 }
 
+hr {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 3em;
@@ -76,12 +81,27 @@ p {
     padding: 1em;
 }
 
-
-
 footer {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     padding: .5em;
     text-align: center;
     position: bottom;
+}
+
+.contact-form {
+    padding: 1em;
+    line-height: 2em;
+}
+
+#name {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
 }
