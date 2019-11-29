@@ -4,6 +4,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
+    color: #777777;
 }
 
 .heading {
@@ -18,6 +19,9 @@ header {
     background: white;
     height: 4em;
     margin-bottom:2em;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: thin;
 }
 
 #Kimberly {
@@ -34,12 +38,17 @@ header {
     float: left; 
 }
 
-nav {
+#nav-bar {
     float:right;
+    position: relative;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-right: 10em;
     margin-left: 4.5em;
+}
+
+a {
+    color: #777777;
 }
 
 p {
