@@ -5,6 +5,7 @@ body {
     font-size: 1em;
     line-height: 1.5em;
     color: #777777;
+    position: relative;
 }
 
 .heading {
@@ -18,10 +19,11 @@ body {
 header {
     background: white;
     height: 4em;
-    margin-bottom:2em;
+    margin-bottom:4em;
     border-style: solid;
     border-color: #dddddd;
     border-width: thin;
+    position: relative;
 }
 
 #Kimberly {
@@ -35,20 +37,18 @@ header {
     margin-right: 10em;
     margin-left: 4.5em;
     padding: .5em;
-    float: left; 
 }
 
 #nav-bar {
-    float:right;
-    position: relative;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-right: 10em;
-    margin-left: 4.5em;
+    position: absolute;
+    float: right;
+    top: 1em;
+    right: 10em;
 }
 
 a {
     color: #777777;
+    padding: 1em;
 }
 
 p {
@@ -63,6 +63,8 @@ p {
     padding: 1.5em;
     margin-right: 10em;
     margin-left: 10em;
+    margin-top: 4em;
+    min-height: calc(100vh - 70px);
 }
 
 #profile-photo {
