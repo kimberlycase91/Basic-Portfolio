@@ -17,23 +17,13 @@ body {
     clear: both;
 }
 
-.heading {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 3em;
-    color: #4aaaa5;
-    position: left;
-    padding: 30px;
-}
-
-header {
+#mainheader {
     background:#fff;
     margin: 0 0 30px;
     z-index: 99;
     color: #fff;
     overflow: auto;
     border-bottom:2px solid #ccc;
-
-    /*position: fixed;*/
     width: 100%;
 }
 
@@ -43,7 +33,7 @@ header {
     width: 250px;
     height: 90px;
     float: left;
-    margin-left: 100px;
+    margin-left: 0;
     line-height: 90px;
     color: #fff;
     text-align: center;
@@ -71,37 +61,62 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-p {
-    padding: .5em;
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
 }
 
 #main-container { 
-    background: white;
-    border-style: solid;
-    border-color: #dddddd;
-    border-width: thin;
-    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
     max-width: 960px;
-    min-height: calc(100vh - 70px);
-    clear: both;
+    border: 1px solid #ddd;
 }
 
 #profile-photo {
-   padding: 1.5em; 
-   padding-top: 1.5em;
-   float: left;
-}
-#about-me {
-    padding: 1em;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
 }
 
 footer {
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    padding: .5em;
+    padding: 20px 0;
     text-align: center;
-    position: bottom;
+    color: #fff;
+    clear: both;
+    font-size: 12px;
 }
 
 .contact-form {
@@ -135,30 +150,6 @@ footer {
     border: none;
 }
 
-.project1-image {
-    position: relative;
-    display: inline-block;
-}
+.project {
 
-.project1 {
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center; 
-    font-size: 1.5em;
-    padding: .5em;
-    position: absolute;
-}
-
-.project2-image {
-    position: relative;
-    padding: 1em;
-}
-
-.project2 {
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center; 
-    font-size: 1.5em;
-    padding: .5em;
-    position: absolute;
 }
