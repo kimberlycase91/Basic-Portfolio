@@ -90,6 +90,7 @@ h3 {
 
 #main-container { 
     padding-top: 20px;
+    position: relative;
 }
 
 .main-section {
@@ -124,18 +125,23 @@ footer {
 /* contact page*/
 
 .contact-form {
-    padding: 1em;
-    line-height: 2em;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+::placeholder {
+    padding: 10px;
 }
 
 #name {
     width: 100%;
-    height: 1.5em;
+    height: 30px;
 }
 
 #email {
     width: 100%;
-    height: 1.5em;
+    height: 30px;
 }
 
 #message {
@@ -146,10 +152,10 @@ footer {
     background-color: #4aaaa5;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    padding: .5em 1em .5em 1em;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    font-size: 1.5em;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
     text-align: center;
     border: none;
 }
@@ -165,7 +171,7 @@ footer {
 }
 
 .project:nth-child(even) {
-    margin-right:40px;
+    margin-right:60px;
 }
 
 .project img {
@@ -187,3 +193,4 @@ footer {
     margin-bottom: 0;
     font-weight: 300;
 }
+
