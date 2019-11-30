@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     background: url("../images/gray_jean/gray_jean.png");
     /*Background pattern from Toptal Subtle Patterns*/
@@ -102,6 +103,7 @@ h3 {
     width: 100%;
     max-width: 960px;
     border: 1px solid #ddd;
+    overflow: hidden;
 }
 
 #profile-photo {
