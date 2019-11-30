@@ -1,16 +1,20 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: url("../images/gray_jean/gray_jean.png");
     /*Background pattern from Toptal Subtle Patterns*/
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 18px;
+    line-height: 34px;
     color: #777777;
-    position: relative;
 }
 
-hr {
-    margin-left: 1em;
-    margin-right: 1em;
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
 }
 
 .heading {
@@ -18,57 +22,69 @@ hr {
     font-size: 3em;
     color: #4aaaa5;
     position: left;
-    padding: .5em;
+    padding: 30px;
 }
 
 header {
-    background: white;
-    height: 4em;
-    margin-bottom:2em;
-    border-style: solid;
-    border-color: #dddddd;
-    border-width: thin;
-    position: relative;
+    background:#fff;
+    margin: 0 0 30px;
+    z-index: 99;
+    color: #fff;
+    overflow: auto;
+    border-bottom:2px solid #ccc;
+
+    /*position: fixed;*/
+    width: 100%;
 }
 
-#Kimberly {
+#logo {
     background: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 9em;
-    height: 1em;
-    font-size: 2em;
-    color: white;
+    width: 250px;
+    height: 90px;
+    float: left;
+    margin-left: 100px;
+    line-height: 90px;
+    color: #fff;
     text-align: center;
-    margin-right: 10em;
-    margin-left: 7.5em;
-    padding: .5em;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 #nav-bar {
-    position: absolute;
     float: right;
-    top: 1em;
-    right: 14.5em;
+    margin-top: 25px;
 }
 
-a {
-    color: #777777;
-    padding: 1em;
+nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
 }
 
 p {
     padding: .5em;
 }
 
-.main-container { 
+#main-container { 
     background: white;
     border-style: solid;
     border-color: #dddddd;
     border-width: thin;
-    padding: 1.5em;
-    margin: 2em 15em 10em 15em;
+    margin: 0 auto;
+    width: 100%;
     max-width: 960px;
     min-height: calc(100vh - 70px);
+    clear: both;
 }
 
 #profile-photo {
@@ -122,9 +138,6 @@ footer {
 .project1-image {
     position: relative;
     display: inline-block;
-    width:  274px;
-    overflow: auto;
-    margin: 20px 20px;
 }
 
 .project1 {
